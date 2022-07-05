@@ -17,9 +17,14 @@ let li = document.createElement('li')
 
 if (bay.cost > 100) {
     li.style.color = 'red';
-}
+}else {
+    li.style.color = 'green';
+    }
+
         li.innerHTML = bay.NameBay+", цена: "+bay.cost;
         ListBay.appendChild(li); 
+
+
        
     }    
      
